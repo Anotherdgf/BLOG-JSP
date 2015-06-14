@@ -1,0 +1,27 @@
+#comment_con{
+	width: 70%;
+	height: 100px;
+	font-size: 1.0em;
+}
+.comment textarea{
+
+}
+#tijiao{
+	margin-top: 10px;
+	width: 10%;
+	font-size: 1.3em;
+	height: 40px;
+}
+#uname{
+	height: 30px;
+	font-size: 1.2em;
+}
+.comment_user{
+	font-size: 1.1em;
+}
+.comment_{
+	padding-left: 10%;
+}
+.comment_time{
+	padding-left: 30%;
+}

@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>dgf个人博客</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+<script src="js/jsIndex.js" charset="utf-8"></script>
+</head>
+<body onload="showli()">
+<div class="wrapper">
+  <header>
+    <h1 id="logo"><a href="/"><img src="images/logo.jpg" width="260" height="60" alt="dgf个人博客"></a></h1>
+    <nav>
+      <ul>
+        <li id="active"><a href="index.html">网站首页</a></li>
+        <li><a href="AboutMe.html">关于我</a></li>
+        <li><a href="">慢生活</a></li>
+        <li><a href="">网站建设</a></li>
+        <li><a href="">学无止境</a></li>
+        <li><a href="">留言版</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner">
+    <div class="headerPic"><a href="/"><span>dgf个人博客</span></a></div>
+    <div class="websiteDescription">
+      <h2>When I called her,her phone was engaged,When I find her,she was engaged。</h2>
+    </div>
+  </div>
+  <div class="mainContent">
+    <h2 class="title_tj">
+      <p>文章<span>推荐</span></p><span style="display:none" id="currentpage"></span>
+    </h2>
+    <div class="bloglist" id="blog">
+     <!--展示文章区域-->
+    </div>
+    <a id="fowardpage" onclick="before()">上一页</a><a id="nextpage" onclick="next()">下一页</a>
+  </div>
+  <div class="sidebar">
+    <div class="news">
+      <h3>
+        <p>最新<span>文章</span></p>
+      </h3>
+      <ul class="rank" id="rank">
+
+      </ul>
+      <h3 class="ph">
+        <p>点击<span>排行</span></p>
+      </h3>
+      <ul class="paih" id="paih">
+
+      </ul>
+      
+      <h3 class="sort">
+        <p>文章<span>分类</span></p>
+      </h3>
+      <ul class="sortion" id="sortion">
+
+      </ul>
+
+      <h3 class="links">
+        <p>友情<span>链接</span></p>
+      </h3>
+      <ul class="website">
+        <li><a href="login.html">博客管理</a></li>
+        <li><a href="http://www.wyjszff.com">我的博客</a></li>
+        <li><a href="#">CSDN</a></li>
+      </ul>
+      <div class="guanzhu">扫描二维码关注<span>dgf博客</span>个人微信账号</div>
+      <a href="/" class="weixin"><img src="images/weixin.jpg"></a> </div>
+  </div>
+  <div class="clearfloat"></div>
+  <footer>
+    <ul>
+      Designed by <a href="/" title="个人博客">Another</a>
+    </ul>
+  </footer>
+</div>
+</body>
+</html>

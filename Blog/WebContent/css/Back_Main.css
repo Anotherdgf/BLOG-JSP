@@ -1,0 +1,80 @@
+a{cursor: pointer;text-decoration: none}
+.articel a:link,.article a:visited {
+	color: blue;
+}
+.article a:hover,.article a:active {
+	color: #FF0;
+}
+.cl{clear:both;}
+.menu{
+	width: 95%;
+	/*height: 100px;*/
+	line-height: 30px;
+}
+.menu a{
+	/*font-family: "幼圆";*/
+	font-size: 1.5em;
+	background-color: orange;
+	color: white;
+	width: 100px;
+	border:1 solid;
+	border-radius: 2;
+}
+
+#search_con{
+	font-size: 1.5em;
+	height: 25px;
+}
+#search{
+	height: 27px;
+	width: 50px;
+	font-weight: bold;
+}
+
+.article li{
+	border : 1px solid;
+	margin: 10px;
+	list-style: circle;
+}
+.article{
+	line-height: 30px;
+}
+.article span{
+	width:50px;
+	font-size: 1.6em;
+	background-color: red;
+	color: white;
+	float: left;
+	/*margin:10px 10px 10px 20px;*/
+	padding-left: 20px;
+	padding-right:5px;
+}
+.article b{
+	font-size: 1.6em;
+	margin-left: 10px;
+	float:left;
+}
+.article li>a{
+	float: right;
+	margin-right:10px; 
+}
+.article li>i{
+	float: left;
+	margin-left: 5%;
+}
+.showsort{
+	margin: 0 auto;
+	width: 25%;
+	font-size: 1.5em;
+}
+.item{
+	line-height: 30px;
+	font-size: 1.2em;
+}
+#add{
+	height: 27px;
+	width: 50px;
+}
+.biaoqian{
+	font-size: 1.5em;
+}
